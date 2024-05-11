@@ -1,0 +1,22 @@
+DOM(Document Object Model) is a programming interface for web documents, it represents the structure of HTML documents as a tree of objects, where each node represents a part of the document
+DOM Manipulation - is a technique that involves using Javascript to access, modify or create elements with the DOM tree.
+
+Selecting elements
+you can elements using the following methods:
+document.getElementById('<id name>')
+document.getElementsByClassName('<class name>')
+document.querySelector('<selector>')
+document.querySelectorAll('<selector>') >> Nodelist
+
+Modifying elements
+change text content >> variableName.textContent = "your text";
+change styles >> variableName.style.color = "red"
+change HTML content >> variableName.innerHTML =``;
+
+Creating new elements
+document.createElement('<div>')
+
+Event handling
+button.addEventListener('click', ()=>{
+    alert('testing dom manipulation')
+})
